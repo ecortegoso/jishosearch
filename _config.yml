@@ -2,7 +2,7 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1607687972                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1616182828                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : es                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Learn to read kanji and test your knowledge
+app_description                           : Convenient Jisho.org handwriting search
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -34,34 +34,10 @@ youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
-
-  - title                                 : 59 Kanji Lessons
-    description                           : Based on yomirenshuu lessons of the <a href="https://www.eoibd.cat">Languages Official School Drassanes</a> of Barcelona, A-B1 grades.
-    fontawesome_icon_name                 : list-ol
     
-  - title                                 : Kanji details
-    description                           : Each lesson covers vocabulary from 8 to 10 kanji, includes onyomi, kunyomi, strokes from awesome <a href="https://www.kanjialive.com">KanjiAlive</a>.
-    fontawesome_icon_name                 : language
-
-  - title                                 : Test your reading knowledge
-    description                           : Random generated reading tests to prove your skill. Uses your device voice recognition to answer.
-    fontawesome_icon_name                 : microphone
-    
-  - title                                 : Test your writing skill
-    description                           : Random generated writing tests to prove your skill. Write with your finger or pencil to answer.
+  - title                                 : Easily search japanese from handwriting
+    description                           : Write English, romaji, kana or kanji and search fabulous <a href="http://jisho.org">Jisho.org</a>
     fontawesome_icon_name                 : pen
-
-  - title                                 : Highly configurable learning
-    description                           : You can delay the hiragana to appear while you are studying and select a voice over to listen
-    fontawesome_icon_name                 : graduation-cap
-
-  - title                                 : Highly configurable tests
-    description                           : You have options to set the test length and the lessons you want to include in your tests.
-    fontawesome_icon_name                 : cogs
-  
-  - title                                 : Multi-language
-    description                           : App available in English, Spanish and Catalan
-    fontawesome_icon_name                 : globe
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
